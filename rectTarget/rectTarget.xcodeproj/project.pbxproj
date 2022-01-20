@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18245C992799420C00E97366 /* PBXContainerItemProxy */ = {
+		180215972799540D00F40423 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 18245C8C27993BE200E97366 /* rectTargetTest.xcodeproj */;
 			proxyType = 2;
@@ -23,7 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18245C8C27993BE200E97366 /* rectTargetTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = rectTargetTest.xcodeproj; path = ../../rectTargetTest/rectTargetTest.xcodeproj; sourceTree = "<group>"; };
+		18245C8C27993BE200E97366 /* rectTargetTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = rectTargetTest.xcodeproj; path = ../rectTargetTest/rectTargetTest.xcodeproj; sourceTree = "<group>"; };
 		18FC86C72797AA5B005D10C2 /* rectTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = rectTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FC86CA2797AA5B005D10C2 /* rectTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectTarget.h; sourceTree = "<group>"; };
 		18FC86CB2797AA5B005D10C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18245C962799420C00E97366 /* Products */ = {
+		180215942799540D00F40423 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18245C9A2799420C00E97366 /* rectTargetTest */,
+				180215982799540D00F40423 /* rectTargetTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 18245C962799420C00E97366 /* Products */;
+					ProductGroup = 180215942799540D00F40423 /* Products */;
 					ProjectRef = 18245C8C27993BE200E97366 /* rectTargetTest.xcodeproj */;
 				},
 			);
@@ -148,11 +148,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		18245C9A2799420C00E97366 /* rectTargetTest */ = {
+		180215982799540D00F40423 /* rectTargetTest */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = rectTargetTest;
-			remoteRef = 18245C992799420C00E97366 /* PBXContainerItemProxy */;
+			remoteRef = 180215972799540D00F40423 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

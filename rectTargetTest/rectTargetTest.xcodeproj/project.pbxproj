@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1802159B279955BB00F40423 /* rectTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1867ACA52798FA5700E7B58D /* rectTarget.framework */; };
+		1802159C279955BB00F40423 /* rectTarget.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1867ACA52798FA5700E7B58D /* rectTarget.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1867AC962798FA2A00E7B58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1867AC952798FA2A00E7B58D /* main.m */; };
-		1867ACA62798FA5700E7B58D /* rectTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1867ACA52798FA5700E7B58D /* rectTarget.framework */; };
 		1867ACA9279905F300E7B58D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1867ACA8279905F300E7B58D /* AppKit.framework */; };
 		1867ACAB279905FE00E7B58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1867ACAA279905FE00E7B58D /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1802159D279955BB00F40423 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				1802159C279955BB00F40423 /* rectTarget.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1867AC902798FA2A00E7B58D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -40,7 +52,7 @@
 			files = (
 				1867ACAB279905FE00E7B58D /* Foundation.framework in Frameworks */,
 				1867ACA9279905F300E7B58D /* AppKit.framework in Frameworks */,
-				1867ACA62798FA5700E7B58D /* rectTarget.framework in Frameworks */,
+				1802159B279955BB00F40423 /* rectTarget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +104,7 @@
 				1867AC8E2798FA2A00E7B58D /* Sources */,
 				1867AC8F2798FA2A00E7B58D /* Frameworks */,
 				1867AC902798FA2A00E7B58D /* CopyFiles */,
+				1802159D279955BB00F40423 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +274,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = "/Users/apple/Library/Developer/Xcode/DerivedData/rectTarget-fvfivtvnbydwbqdywfzvmgfxwuth/Build/Products/Debug";
+				LD_RUNPATH_SEARCH_PATHS = ./;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -270,6 +284,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = "/Users/apple/Library/Developer/Xcode/DerivedData/rectTarget-fvfivtvnbydwbqdywfzvmgfxwuth/Build/Products/Debug";
+				LD_RUNPATH_SEARCH_PATHS = ./;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
